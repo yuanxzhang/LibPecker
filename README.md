@@ -67,8 +67,13 @@ java -jar LibPecker.jar <apk_path> <lib_path>
 To transform library files (such as .jar/.aar file), you can use the *dx* command
 in the *bin* directory.
 
+#####Linux
 ```
 ./bin/dx --dex --output=<lib_dex> <lib_jar_path>
+```
+#####Windows
+```
+./bin/dx.sh --dex --output=<lib_dex> <lib_jar_path>
 ```
 
 ## Test
